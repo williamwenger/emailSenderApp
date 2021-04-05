@@ -21,7 +21,6 @@ function App() {
 
   function sendEmail(e){
     e.preventDefault();
-    console.log('fuck you');
     // const formJSON = JSON.stringify(form);
 
     axios.post('http://127.0.0.1:3000/', form)

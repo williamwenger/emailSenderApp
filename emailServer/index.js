@@ -9,8 +9,10 @@ app.use(cors());
 
 app.post('/', (req, res) => {
     sgMail.send({
+        // gets email from login field in front end application//
         to: req.body.email,
-        // from: 'emailGoesHere@hotmail.com',
+        //email used to send emails //
+        from: 'emailUsedTosend@hotmail.com',
         subject: 'Recent Login',
         text: 'Someone trynna hack into your account....unless it you.'
     }).then(() => {
