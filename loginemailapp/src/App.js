@@ -39,7 +39,7 @@ function App() {
         <img src='./yoshi_frog_idk.png' className="App-logo" alt="logo" id = "yoshiSize"/>
         <form className = "vertical">
           <label>Email</label>
-          <input id = "email" name = "email" placeholder = " Ex: buttCream69@gmail.com" onChange={onInputChange}></input>
+          <input id = "email" name = "email" placeholder = " Ex: orangeCream67@gmail.com" onChange={onInputChange}></input>
           <label>Password</label>
           <input type="password" id = "password" name = "password" placeholder = "Ex: blink182"></input>
           <button id="login" onClick = {sendEmail}>Are you in?</button>

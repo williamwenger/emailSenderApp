@@ -12,7 +12,7 @@ app.post('/', (req, res) => {
         // gets email from login field in front end application//
         to: req.body.email,
         //email used to send emails //
-        from: 'emailUsedTosend@hotmail.com',
+        from: 'youremail@goesHere.com',
         subject: 'Recent Login',
         text: 'Someone trynna hack into your account....unless it you.'
     }).then(() => {
